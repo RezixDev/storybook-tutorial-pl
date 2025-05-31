@@ -70,5 +70,21 @@ npm install --save-dev @storybook/react-vite
 ```
 
 
+## Tworzenie Stories z AI
+
+Dzięki Modelom LLM tworzenie Stories stało się o wiele prostsze i mogą one nam wygenerować wiele kodu Boilerplate, jednakże trzeba uważać i sprawdzać generacje.
+
+Nie zawsze są one poprawne, gdyż mogą bazować na starszych wersjach, starszej składni, bądź generować Stories w błędnym formacie.
+
+Na dzień dzisiejszy jesteśmy w stanie pisać Stories w naprawdę wielu formatach.
+https://storybook.js.org/docs/writing-stories
+
+Są to między innymi: js, jsx, mjs, ts, tsx, md, mdx.
+
+I każdy format może posiadać inną formę w zależności od wybranego języka i frameworka, w którym osadziliśmy naszego Storybooka. 
+
+
+
+
 
 
