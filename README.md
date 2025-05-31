@@ -87,7 +87,7 @@ Dlatego zanim zaczniemy promptować, warto sprawdzić format na który się zdec
 
 Przykładowym promptem może być:
 
-````
+```
 create Story in tsx format for this component:
 <tutaj podajecie wasz komponent, np: Reacta~
 ```
