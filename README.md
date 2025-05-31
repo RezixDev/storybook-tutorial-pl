@@ -89,7 +89,7 @@ Przykładowym promptem może być:
 
 ```
 create Story in tsx format for this component:
-<tutaj podajecie wasz komponent, np: Reacta~
+<tutaj podajecie wasz komponent, np: Reacta>
 ```
 
 W moim doświadczeniu Claude 4 oraz DeepSeek generuje je najlepiej, natomiast ChatGPT 4o stara się więcej podpowiedzieć, jak napisać Story, niż stworzyć gotowy komponent. 
