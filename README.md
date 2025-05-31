@@ -31,7 +31,9 @@ https://storybook.js.org/releases/9.0
 W takim przypadku trzeba sprawdzić migration guide i na podstawie jego poprawić to co zmienili.
 https://github.com/storybookjs/storybook/blob/next/MIGRATION.md
 
-Często są to Pluginy, które istniały jako paczki (npm) i które albo trafiły do Core, ze względu dużej popularności, bądź zostały zastąpione przez inny plugin jak Test runner, który został zastąpiony Vitestem: https://storybook.js.org/docs/writing-tests/integrations/test-runner
+Często są to Pluginy, które istniały jako paczki (npm) i które albo trafiły do Core, ze względu dużej popularności, bądź zostały zastąpione przez inny plugin jak Test runner, który został zastąpiony Vitestem: 
+https://storybook.js.org/docs/writing-tests/integrations/test-runner
+=> https://storybook.js.org/docs/writing-tests/integrations/vitest-addon
 
 ### Konieczność pisania Stories i aktualizacji ich
 
