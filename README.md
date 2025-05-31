@@ -21,6 +21,8 @@ Są to dane "testowe", które nie pochodzą bezpośrednio z bazy danych, a defin
 
 ## Wady Storybooka
 
+### Upgrade Wersji
+
 Regularne zmiany w paczkach i wymóg co jakiś czas poprawiania Configu. Nie jest to konieczność, ale lepiej jest co jakiś czas dostosować projekt do nowszej wersji. 
 
 Na czas pisania tego Tutoriala wyszła wersja 9 (Czerwiec 2025)
@@ -30,6 +32,20 @@ W takim przypadku trzeba sprawdzić migration guide i na podstawie jego poprawi�
 https://github.com/storybookjs/storybook/blob/next/MIGRATION.md
 
 Często są to Pluginy, które istniały jako paczki (npm) i które albo trafiły do Core, ze względu dużej popularności, bądź zostały zastąpione przez inny plugin jak Test runner, który został zastąpiony Vitestem: https://storybook.js.org/docs/writing-tests/integrations/test-runner
+
+### Konieczność pisania Stories i aktualizacji ich
+
+Użyteczność Storybook'a w projekcie jest tak duża jak gotowość programistów do zajmowania się nim. 
+Czyli tak samo jak z testami. 
+
+Jeżeli programiści będą je regularnie pisać i aktualizować, to jest to użyteczne narzędzie, które może przyspieszyć rozwój projektu. Szczególnie, jeżeli Projekt po jakimś czas urośnie do dużych rozmiarów. 
+
+Musi być w zespole stworzona kultura, która oczekuje od programistów tego typu praktyk. 
+Bez takiej kultury, będzie ciężko wdrożyć takie rozwiązania. 
+
+### Werdykt
+
+Wydaje mi się, że mimo wszystko Storybook to super narzędzie pozwalające szybciej wyłapać możliwe błędy i przyspieszyć pracę zespołu, przez możliwość niezależnego rozwijania elementów projektu. 
 
 
 
