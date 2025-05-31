@@ -95,4 +95,10 @@ create Story in tsx format for this component:
 W moim doświadczeniu Claude 4 oraz DeepSeek generuje je najlepiej, natomiast ChatGPT 4o stara się więcej podpowiedzieć, jak napisać Story, niż stworzyć gotowy komponent. 
 
 
+### Pod jakie elementy tworzemy Stories?
+
+Głównie pojedyńcze elemnty UI oraz Design Tokeny.
+
+Jeżeli chodzi o Layouty, to ze względu na to, że posiadają one wiele elementów dynamicznych, ciężej się je testuje w izolacji. 
+Lepiej jest, jeżeli stworzymy pod nie testy Integracjyjne, bądź E2E.
 
