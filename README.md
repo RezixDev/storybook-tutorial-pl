@@ -49,5 +49,26 @@ Bez takiej kultury, będzie ciężko wdrożyć takie rozwiązania.
 
 Wydaje mi się, że mimo wszystko Storybook to super narzędzie pozwalające szybciej wyłapać możliwe błędy i przyspieszyć pracę zespołu, przez możliwość niezależnego rozwijania elementów projektu. 
 
+# Instalcja
+
+Jak zainstalować Storybooka znajdziecie tutaj:
+https://storybook.js.org/docs
+
+Aktualnie wspiera on naprawdę sporo różnych technologii, a integracja go w wasz projekt nie powinna sprawić wam zbyt dużego problemu.
+
+Na przykładzie Reacta, istnieją dwa sposoby:
+Automatyczna instalacja, czyli jest to po prostu odpalenie CLI i przejście przez wszystkie kroki:
+
+```
+npm create storybook@latest
+```
+
+Drugi sposób to manualna instalacja, gdzie instalujemy poza Core Storybook'a, dodatkową paczkę pod naszego frameworka. 
+W naszym przypadku jest to React:
+```
+npm install --save-dev @storybook/react-vite
+```
+
+
 
 
