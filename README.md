@@ -102,3 +102,4 @@ Głównie pojedyńcze elemnty UI oraz Design Tokeny.
 Jeżeli chodzi o Layouty, to ze względu na to, że posiadają one wiele elementów dynamicznych, ciężej się je testuje w izolacji. 
 Lepiej jest, jeżeli stworzymy pod nie testy Integracjyjne, bądź E2E.
 
+Jeżeli nasze dane wymagają API i fetchują one dane z Backendu to dobrym pomysłem by było stworzyć Mock-Upy tych danych. 
